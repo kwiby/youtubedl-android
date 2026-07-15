@@ -1,5 +1,5 @@
 plugins {
-    id("com.kwiby.youtubedl_android")
+    id("com.yausername.youtubedl_android")
     id("signing")
     id("com.android.library")
     id("maven-publish")
@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.kwiby.ffmpeg"
+    namespace = "com.yausername.ffmpeg"
     compileSdk = 34
     defaultConfig {
         minSdk = 24
